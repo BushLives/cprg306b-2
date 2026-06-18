@@ -1,0 +1,39 @@
+{
+    "students":[
+        {
+            "id":"0",
+            "firstName": "Guy",
+            "lastName": "Parson",
+            "dob": "1996-06-18",
+            "grade": "A"
+        },
+        {
+            "id":"1",
+            "firstName": "Hugh",
+            "lastName": "Mann",
+            "dob": "2001-05-21",
+            "grade": "B"
+        },
+        {
+            "id":"2",
+            "firstName": "Gal",
+            "lastName": "Palls",
+            "dob": "1998-11-02",
+            "grade": "A"
+        },
+        {
+            "id":"3",
+            "firstName": "Delila",
+            "lastName": "Inquent",
+            "dob": "2005-10-13",
+            "grade": "D"
+        },
+        {
+            "id":"4",
+            "firstName": "Teash",
+            "lastName": "Cherspet",
+            "dob": "1999-09-09",
+            "grade": "A"
+        }
+    ]
+}
