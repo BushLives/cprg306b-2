@@ -2,7 +2,7 @@ import data from "../../data/students.json";
 
 const StudentSection = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 lg:gap-8 justify-self-start sm:px-2">
+    <div className="flex flex-wrap justify-center gap-6 lg:gap-8 justify-self-start sm:px-2 pt-12">
       {data.students.map((student) => (
         <div
           key={student.id}
