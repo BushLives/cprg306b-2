@@ -37,7 +37,7 @@ export default function Form() {
                     <input type="date" {...register("dateOfBirth")}></input>
                 </FormField>
                 <FormField label="Grade" error={errors.grade?.message} required>
-                    <input type="number" {...register("grade")}></input>
+                    <input type="text" {...register("grade")}></input>
                 </FormField>
             </div>
 
