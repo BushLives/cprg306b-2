@@ -1,4 +1,5 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
             <span className='text-slate-100 font-semibold text-md sm:text-lg hover:text-slate-300 hover:underline'>Account</span>
         </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
