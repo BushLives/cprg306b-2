@@ -36,7 +36,7 @@ export default function Form() {
                 <input type="date" {...register("dateOfBirth")}></input>
             </FormField>
             <FormField label="Grade" error={errors.grade?.message} required>
-                <input type="number" {...register("grade")}></input>
+                <input type="text" {...register("grade")}></input>
             </FormField>
 
             <button type="submit" className="rounded-lg bg-white px-4 py-2 text-sm font-medium text-black shadow-sm hover:bg-slate-500 active:bg-blue-800 transition-colors duration-200">
