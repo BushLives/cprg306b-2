@@ -10,10 +10,12 @@ type FormFieldProps = {
 
 const FormField = ({label, error, hint, required =false, children}:FormFieldProps) => {
     return (
-        <div>
+        <div className="py-1 text-slate-950">
             {required && <span className="text-red-500">*</span>}
             <label>{label}: </label>
-            {children}
+            <div className="border border-slate-600 rounded p-1 mt-0.5">
+                {children}
+            </div>         
             {hint && !error && <p className="text-slate-400">{hint}</p>}
 
             {error && (
