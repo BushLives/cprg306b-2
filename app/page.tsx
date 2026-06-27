@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import Form from "../app/components/Form";
 import data from "../data/students.json";
 import { useState } from "react";

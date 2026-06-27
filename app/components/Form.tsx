@@ -19,6 +19,8 @@ export default function Form() {
         defaultValues: {
             firstName: "",
             lastName: "",
+            dateOfBirth: "",
+            grade: ""
         }
     });
 
